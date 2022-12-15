@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="/">
+            <!-- Text Input  -->
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+            <br> 
+            <!-- Color Input -->
+            <label for="favouriteColor">Please Select your Color</label>
+            <input type="color" id="favouriteColor"/>
+            <br>
+            <!-- Checkbox Input -->
+            <label for="Eligible">Age Above 18?</label>
+            <input type="checkbox"/>
+            <br>
+            <!-- Date Input -->
+            <label for="bookingDate">Select your DOB</label>
+            <input type="date" name="bookingDate"/>
+            <br>
+            <!-- Number Input  -->
+            <label for="books">Enter your books count</label>
+            <input type="number" min="1" max="100" name="books" id="books"/>
+            <br>
+            <!-- File Input -->
+            <label for="vaccineCertificates">Please upload your vaccineCertificates</label>
+            <input type="file" name="vaccineCertificates"/>
+            <br>
+            <!-- DateTime-local Input -->
+            <label for="test">Select time and Date</label>
+            <input type="datetime-local" name="test"/>
+
+            <br>
+            <input type="hidden" name="hiddentest"/>
+
+            <label for="password">Enter your password</label>
+            <input type="password" name="password" id="password" required minlength="3" maxlength="9">
+            <br>
+            <!-- image input -->
+            <label for="picture">Click on the photo to submit the form</label>
+            <input type="image" name="profilePicture" name="picture" src="./inputimage.jpeg" width="25px" height="25px"/>
+
+            <br>
+            <label for="range">Select range</label>
+            <input type="range" name="range" id="range" min="1" max="100" value="37"/>
+            <br>
+            <input type="button" id="random" name="Click me" value="Click me">
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
+
